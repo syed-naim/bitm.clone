@@ -55,9 +55,6 @@
    color: #fff;
    font-size: 32px;
 }
-.carousel .carousel-inner {
-   /* height: 90vh; */
-}
 .courses h3 {
    font-size: 1rem;
    color: #6cc118;
@@ -150,8 +147,7 @@
 .footer .nav-item .nav-link:hover {
    color: #6cc118;
 }
-.footer .collaboration{
+.footer .collaboration {
    margin-top: 16px;
    border-radius: 4px;
-
 }
