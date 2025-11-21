@@ -104,7 +104,14 @@
    color: #fff;
    font-size: 1rem;
 }
-
+.courses-section .card{
+   transition: transform .5s;
+}
+.courses-section .card:hover{
+   transform:scale(1.10);
+   cursor: pointer;
+   /* border: 2px solid #6cc118; */
+}
 /* about section  */
 .about {
    background-color: #fafef1;
@@ -116,7 +123,9 @@
 .about .about-img-section {
    width: 571px;
    height: 321px;
-   border-radius: 5px;
+   border-radius: 12px;
+   padding: 8px 0;
+
 }
 .about .about-paragraph {
    color: rgb(31 41 55);
@@ -124,7 +133,7 @@
    font-weight: 500;
    text-align: justify;
    letter-spacing: 0.4px;
-   padding: 16px 0;
+   padding: 8px 0;
 }
 .about .know-more .btn {
    background-color: #6cc118;
@@ -135,6 +144,14 @@
 }
 .about .know-more .btn:hover {
    background-color: #5ea714;
+}
+.about .card{
+   border-right: 4px solid #6cc118;
+   transition: transform .5s;
+}
+.about .card:hover{
+   transform:scale(1.10);
+   cursor: pointer;
 }
 /* footer section  */
 .footer {
